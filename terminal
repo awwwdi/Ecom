@@ -1,0 +1,9 @@
+mkdir mern-ecommerce
+cd mern-ecommerce
+mkdir backend frontend 
+cd backend
+npm init -y
+npm install express mongoose dotenv cors bcryptjs jsonwebtoken 
+cd ../frontend
+npx create-react-app .
+npm install axios react-router-dom @mui/material @emotion/react @emotion/styled redux react-redux @reduxjs/toolkit
